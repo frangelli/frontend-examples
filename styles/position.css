@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.grampa  {
+  position: relative;
+  max-width: 600px;
+  height: 300px;
+  padding: 0;
+  margin: 0;
+  background: #ccc;
+}
+
+.dad {
+  position: relative;
+  background: #333333;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.col-1 {
+  height: 100%;
+  background: rgba(255, 255, 255, 1);
+  float:left;
+  display: inline-block;
+  width: 8.33%;
+  margin: 0;
+  padding: 10px;
+}
+
+.col-2 {
+  height: 100%;
+  background: rgba(255, 255, 255, 1);
+  float:left;
+  display: inline-block;
+  margin: 0;
+  padding: 10px;
+  width: 16.66%;
+}
+
+.col-6 {
+  height: 100%;
+  background: rgba(255, 255, 255, 1);
+  float:left;
+  display: inline-block;
+  margin: 0;
+  padding: 10px;
+  width: 50%;
+}
+
+.me {
+  border: 1px solid black;
+  width: 100%;
+  /*position: absolute;*/
+  background: #ffdd00;
+}
+
+/* centering stuff */
+.wrapper {
+  position: relative;
+  max-width: 500px;
+  height: 500px;
+  background: #ddeeff;
+  border: 1px solid black;
+}
+
+.centered-1 {
+  background: #ff0000;
+  width: 30%;
+  height: 30%;
+  margin-left: 50%;
+  margin-top: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered-2 {
+  background: #FFFF00;
+  max-width: 50px;
+  height: 100px;
+  margin: auto;
+}
+
+.clearfix {
+  overflow: auto;
+}
